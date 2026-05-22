@@ -8,19 +8,19 @@ A modern, responsive Property Tax Analytics Dashboard built for the UPYOG multi-
 
 ##  Features
 
-###  Task 1: KPI Dashboard (30 points)
+###  Task 1: KPI Dashboard 
 - **4 Interactive KPI Cards**: Total Properties, Approved, Rejected, and Total Collection
 - **Live Tenant Filter**: Select from 10 cities or view all data at once
 - **Real-time Updates**: All metrics update instantly on filter change
 - **Responsive Design**: Optimized for desktop, tablet, and mobile devices
 
-###  Task 2: Comparison Charts (10 points)
+###  Task 2: Comparison Charts 
 - **Bar Chart**: Total collection per city with gradient styling
 - **Donut Chart**: Property distribution across cities
 - **Stacked Bar Chart**: Approved vs Rejected vs Pending breakdown per city
 - **Horizontal Ranking**: Top cities by collection value
 
-###  Task 3: AI Chat Assistant (25 points)
+###  Task 3: AI Chat Assistant 
 - **Google Gemini Integration**: Real AI-powered responses to natural language queries
 - **Context-Aware**: Answers are based on live dashboard data
 - **Smart Suggestions**: Pre-filled questions for quick queries
