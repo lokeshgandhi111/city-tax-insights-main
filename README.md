@@ -6,27 +6,27 @@ A modern, responsive Property Tax Analytics Dashboard built for the UPYOG multi-
 
 ---
 
-## 🎯 Features
+##  Features
 
-### ✅ Task 1: KPI Dashboard (30 points)
+###  Task 1: KPI Dashboard (30 points)
 - **4 Interactive KPI Cards**: Total Properties, Approved, Rejected, and Total Collection
 - **Live Tenant Filter**: Select from 10 cities or view all data at once
 - **Real-time Updates**: All metrics update instantly on filter change
 - **Responsive Design**: Optimized for desktop, tablet, and mobile devices
 
-### ✅ Task 2: Comparison Charts (10 points)
+###  Task 2: Comparison Charts (10 points)
 - **Bar Chart**: Total collection per city with gradient styling
 - **Donut Chart**: Property distribution across cities
 - **Stacked Bar Chart**: Approved vs Rejected vs Pending breakdown per city
 - **Horizontal Ranking**: Top cities by collection value
 
-### ✅ Task 3: AI Chat Assistant (25 points)
+###  Task 3: AI Chat Assistant (25 points)
 - **Google Gemini Integration**: Real AI-powered responses to natural language queries
 - **Context-Aware**: Answers are based on live dashboard data
 - **Smart Suggestions**: Pre-filled questions for quick queries
 - **Error Handling**: Graceful fallbacks for API issues
 
-### ✅ Additional Quality
+###  Additional Quality
 - **Type-Safe TypeScript**: Full end-to-end type safety
 - **Modern UI/UX**: TailwindCSS + shadcn/ui components
 - **Performance Optimized**: React hooks, memoization, efficient rendering
@@ -34,7 +34,7 @@ A modern, responsive Property Tax Analytics Dashboard built for the UPYOG multi-
 
 ---
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Prerequisites
 - Node.js 18+ 
@@ -45,7 +45,7 @@ A modern, responsive Property Tax Analytics Dashboard built for the UPYOG multi-
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/city-tax-insights.git
+   git clone https://github.com/lokeshgandhi111/city-tax-insights.git
    cd city-tax-insights
    ```
 
@@ -69,7 +69,7 @@ A modern, responsive Property Tax Analytics Dashboard built for the UPYOG multi-
    - Create a new API key for free
    - Copy and paste it into your `.env` file
    
-   ⚠️ **Important**: `.env` is automatically ignored by Git (see `.gitignore`). Never commit this file.
+    **Important**: `.env` is automatically ignored by Git (see `.gitignore`). Never commit this file.
 
 4. **Start development server**
    ```bash
@@ -80,7 +80,7 @@ A modern, responsive Property Tax Analytics Dashboard built for the UPYOG multi-
 
 ---
 
-## 📊 Dataset
+##  Dataset
 
 The dashboard loads **1,000 property records** from `src/data/properties.json`. The data includes:
 
@@ -104,7 +104,7 @@ Delhi, Mumbai, Pune, Bengaluru, Chennai, Hyderabad, Ahmedabad, Kolkata, Jaipur, 
 
 ---
 
-## 🏗️ Project Structure
+##  Project Structure
 
 ```
 src/
@@ -121,7 +121,7 @@ src/
 ├── lib/                 # Utilities
 │   ├── error-capture.ts
 │   ├── error-page.ts
-│   ├── gemini.ts            # Gemini API integration ⭐
+│   ├── gemini.ts            # Gemini API integration 
 │   └── utils.ts
 ├── utils/               # Helpers
 │   ├── analytics.ts         # KPI calculations
@@ -136,7 +136,7 @@ src/
 
 ---
 
-## 💻 Available Scripts
+##  Available Scripts
 
 ```bash
 # Development
@@ -157,7 +157,7 @@ npm install          # Install dependencies
 
 ---
 
-## 🤖 AI Chat Assistant
+##  AI Chat Assistant
 
 The chat assistant is powered by **Google Gemini 1.5 Flash**, a free and powerful AI model.
 
@@ -186,73 +186,19 @@ const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
 ```
 
 The implementation includes:
-- ✅ Error handling for rate limits and network issues
-- ✅ API key validation at startup
-- ✅ Graceful fallbacks
-- ✅ Response caching (future enhancement)
+-  Error handling for rate limits and network issues
+-  API key validation at startup
+-  Graceful fallbacks
+-  Response caching (future enhancement)
 
 ---
 
-## 📈 Scoring Breakdown
 
-| Component | Points | Status |
-|-----------|--------|--------|
-| KPI Dashboard (4 cards) | 30 | ✅ Complete |
-| Tenant Filter | 15 | ✅ Complete |
-| Comparison Charts | 10 | ✅ Complete |
-| AI Chat Assistant | 25 | ✅ Complete |
-| Code Quality | 10 | ✅ Complete |
-| README & Setup | 10 | ✅ Complete |
-| **Total** | **100** | **✅ 100/100** |
 
 ---
 
-## 🌐 Deployment
 
-### Deploy on Vercel
-
-1. Push to GitHub
-   ```bash
-   git add .
-   git commit -m "Add AI integration"
-   git push origin main
-   ```
-
-2. Connect to Vercel
-   - Go to [vercel.com](https://vercel.com)
-   - Import your repository
-   - Add environment variable: `VITE_GEMINI_API_KEY`
-   - Deploy
-
-### Deploy on Netlify
-
-1. Push to GitHub
-
-2. Connect to Netlify
-   - Go to [netlify.com](https://netlify.com)
-   - Connect GitHub repo
-   - Build command: `npm run build`
-   - Publish directory: `dist`
-   - Add environment variable: `VITE_GEMINI_API_KEY`
-   - Deploy
-
-### Environment Variables in Production
-
-Set `VITE_GEMINI_API_KEY` as an environment variable in your deployment platform's settings. Never hardcode secrets.
-
----
-
-## 🔐 Security
-
-- ✅ `.env` files are gitignored and never committed
-- ✅ API keys are loaded from environment variables
-- ✅ No secrets in source code or build output
-- ✅ CORS-safe API calls via Gemini SDK
-- ✅ Input validation on chat messages
-
----
-
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - **Frontend**: React 19 + TypeScript
 - **Routing**: TanStack Router
@@ -265,7 +211,7 @@ Set `VITE_GEMINI_API_KEY` as an environment variable in your deployment platform
 
 ---
 
-## 📝 Environment Variables Reference
+##  Environment Variables Reference
 
 | Variable | Description | Example |
 |----------|-------------|---------|
@@ -275,7 +221,7 @@ Set `VITE_GEMINI_API_KEY` as an environment variable in your deployment platform
 
 ---
 
-## 🐛 Troubleshooting
+##  Troubleshooting
 
 ### Chat Assistant Not Working
 
@@ -306,7 +252,7 @@ npm run build
 
 ---
 
-## 📚 Resources
+##  Resources
 
 - [Google Gemini API Docs](https://ai.google.dev)
 - [TanStack Router Docs](https://tanstack.com/router)
@@ -315,20 +261,20 @@ npm run build
 
 ---
 
-## 📄 License
+##  License
 
 This project is created for NUDM UPYOG Platform Assessment 2026.
 
 ---
 
-## 👤 Author
+##  Author
 
-**Your Name**  
+**Lokesh Gandhi Modalavalasa**  
 NUDM Intern Assessment 2026
 
 ---
 
-## 📧 Support
+##  Support
 
 For questions or issues:
 - Check the [Troubleshooting](#-troubleshooting) section
