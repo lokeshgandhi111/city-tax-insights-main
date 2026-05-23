@@ -2,7 +2,7 @@
 
 A modern, responsive Property Tax Analytics Dashboard built for the UPYOG multi-tenant platform serving 10 Indian cities. The platform displays comprehensive KPIs, interactive visualizations, and an AI-powered chat assistant for data insights.
 
-**Live Demo**: [Deploy on Vercel/Netlify]
+
 
 ---
 
